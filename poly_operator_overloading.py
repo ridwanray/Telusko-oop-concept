@@ -27,7 +27,7 @@ class  Student:
 
         return s3
     def __str__(self):
-        return self.m1, self.m2
+        return self.m1,self.m2
 
 s1 =  Student(58,69)
 s2 =  Student(60,65)
