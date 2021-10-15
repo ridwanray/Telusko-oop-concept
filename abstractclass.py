@@ -46,13 +46,14 @@ class Computer(ABC):
         pass
 
 class Laptop(Computer):
-    def process(self):
+    def process(self):#error throw if process() not defined here
         print('It is running')
 
 
 class WhiteBoard:
     def write(self):
         print('its  writing')
+    #if process not instancia
 
 
 
